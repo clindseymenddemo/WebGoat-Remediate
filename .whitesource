@@ -12,4 +12,5 @@
     "enableRenovate": false,
     "ignorePresets": ["config:base", "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"]
   }
+
 }
