@@ -1,6 +1,9 @@
 {
   "settingsInheritedFrom": "clindseymenddemo/whitesource-config@main",
- "remediateSettings": {
+   "scanSettings": {
+      "enableReachability": true
+  },
+  "remediateSettings": {
     "workflowRules": {
       "enabled": true,
       "minVulnerabilityScore": 9,
