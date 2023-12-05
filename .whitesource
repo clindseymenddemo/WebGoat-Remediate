@@ -1,3 +1,12 @@
 {
-  "settingsInheritedFrom": "clindseymenddemo/whitesource-config@main"
+  "settingsInheritedFrom": "clindseymenddemo/whitesource-config@main",
+ "remediateSettings": {
+    "workflowRules": {
+      "enabled": true,
+      "minVulnerabilityScore": 9,
+        "maxVulnerabilityScore": 10
+    },
+    "enableRenovate": false,
+    "ignorePresets": ["config:base", "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"]
+  }
 }
